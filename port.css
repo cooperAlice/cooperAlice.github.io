@@ -1,0 +1,97 @@
+*{
+    margin: 5px;
+}
+
+body{
+    background-color: rgba(67, 80, 67, 0.555);
+    margin: 3%
+}
+
+h1{
+    color: rgb(107, 50, 50);
+    background-color:#000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+       }
+
+.container {
+
+    display: flex;
+    align-items: center;
+    border: 1px rgb(4, 41, 41);
+}
+  
+img {
+    
+    margin-right: 10px; 
+    border-radius: 50px;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+  
+p#nuevo{
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+       
+}
+
+nav{
+    background-color: black;
+    font-size: larger;
+    text-align: center;
+    white-space: 0.2em;  
+}
+span{
+    color: rgb(58, 104, 6);
+}
+
+.normal{
+    text-align: justify;
+    
+}
+p1{
+    background-color:rgb(164, 192, 183)
+    
+}
+
+table {
+    background-color: rgb(164, 192, 183);
+    border-collapse: collapse;
+    padding: 10px;
+}
+  
+.icon {
+    list-style: none;
+    padding-left: 0;
+}
+.icon li{
+    background-image: url("1200px-Spotify_logo_vertical_black.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+  }
+  
+.especifico{
+    list-style: none;
+    padding-left: 0;
+}
+.especifico li{
+    background-image: url("1200px-Spotify_logo_vertical_black.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+    
+}
+
+strong:active{ 
+    background-color: rgb(233, 14, 14);
+}
+
+a:visited{
+    color: rgb(14, 233, 204);
+}
+h1::first-letter{
+    color: rgb(236, 234, 234);
+    font-size: 2em;
+}
